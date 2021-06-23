@@ -1,4 +1,4 @@
-package com.murali;
+package com.murali.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HealthController {
 
     @GetMapping
-    private ResponseEntity<String> health() {
+    public ResponseEntity<String> health() {
         return new ResponseEntity<>("success", HttpStatus.OK);
     }
 }

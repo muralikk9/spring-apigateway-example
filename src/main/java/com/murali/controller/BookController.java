@@ -1,5 +1,6 @@
-package com.murali;
+package com.murali.controller;
 
+import com.murali.model.Book;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

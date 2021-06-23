@@ -1,4 +1,4 @@
-package com.murali;
+package com.murali.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
